@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Notebook</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>My Notebook</h1>
+
+  <textarea id="noteInput" placeholder="Write a note here..."></textarea>
+  <button id="addBtn" onclick="addNote()">Add Note</button>
+
+  <input type="text" id="searchInput" placeholder="Search notes..." onkeyup="showNotes()">
+
+  <div id="notesContainer"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
